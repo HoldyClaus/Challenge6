@@ -109,16 +109,16 @@ function getFiveDay() {
         Icon4 = data.list[26].weather[0].icon;
         Icon5 = data.list[34].weather[0].icon;
 
-        fdDate1 = data.list[2].dt_txt;
-        fdDate2 = data.list[10].dt_txt;
-        fdDate3 = data.list[18].dt_txt;
-        fdDate4 = data.list[26].dt_txt;
-        fdDate5 = data.list[34].dt_txt;
-        fdDate6 = fdDate1.substring(0, 10);
-        fdDate7 = fdDate2.substring(0, 10);
-        fdDate8 = fdDate3.substring(0, 10);
-        fdDate9 = fdDate4.substring(0, 10);
-        fdDate10 = fdDate5.substring(0, 10);
+        date1 = data.list[2].dt_txt;
+        date2 = data.list[10].dt_txt;
+        date3 = data.list[18].dt_txt;
+        date4 = data.list[26].dt_txt;
+        date5 = data.list[34].dt_txt;
+        date6 = date1.substring(0, 10);
+        date7 = date2.substring(0, 10);
+        date8 = date3.substring(0, 10);
+        date9 = date4.substring(0, 10);
+        date10 = date5.substring(0, 10);
 
         Humidday1 = data.list[2].main.humidity;
         Tempday1 = data.list[2].main.temp;
@@ -160,11 +160,11 @@ function getFiveDay() {
         elem4.setAttribute("alt", "Weather Icon");
         elem5.setAttribute("src", "http://openweathermap.org/img/wn/"+Icon5+"@2x.png");
         elem5.setAttribute("alt", "Weather Icon");
-        elem6.textContent = fdDate6;
-        elem7.textContent = fdDate7;
-        elem8.textContent = fdDate8;
-        elem9.textContent = fdDate9;
-        elem10.textContent = fdDate10;
+        elem6.textContent = date6;
+        elem7.textContent = date7;
+        elem8.textContent = date8;
+        elem9.textContent = date9;
+        elem10.textContent = date10;
 
         var li = document.getElementById('Humidday1');
         li.textContent = "Humidity: " + Humidday1 + "%";
@@ -240,16 +240,16 @@ function getFiveDay() {
         Icon4 = data.list[26].weather[0].icon;
         Icon5 = data.list[34].weather[0].icon;
 
-        fdDate1 = data.list[2].dt_txt;
-        fdDate2 = data.list[10].dt_txt;
-        fdDate3 = data.list[18].dt_txt;
-        fdDate4 = data.list[26].dt_txt;
-        fdDate5 = data.list[34].dt_txt;
-        fdDate6 = fdDate1.substring(0, 10);
-        fdDate7 = fdDate2.substring(0, 10);
-        fdDate8 = fdDate3.substring(0, 10);
-        fdDate9 = fdDate4.substring(0, 10);
-        fdDate10 = fdDate5.substring(0, 10);
+        date1 = data.list[2].dt_txt;
+        date2 = data.list[10].dt_txt;
+        date3 = data.list[18].dt_txt;
+        date4 = data.list[26].dt_txt;
+        date5 = data.list[34].dt_txt;
+        date6 = date1.substring(0, 10);
+        date7 = date2.substring(0, 10);
+        date8 = date3.substring(0, 10);
+        date9 = date4.substring(0, 10);
+        date10 = date5.substring(0, 10);
 
         Humidday1 = data.list[2].main.humidity;
         Tempday1 = data.list[2].main.temp;
@@ -291,11 +291,11 @@ function getFiveDay() {
         elem5.setAttribute("src", "http://openweathermap.org/img/wn/"+Icon5+"@2x.png");
         elem5.setAttribute("alt", "Weather Icon");
 
-        elem6.textContent = fdDate6;
-        elem7.textContent = fdDate7;
-        elem8.textContent = fdDate8;
-        elem9.textContent = fdDate9;
-        elem10.textContent = fdDate10;
+        elem6.textContent = date6;
+        elem7.textContent = date7;
+        elem8.textContent = date8;
+        elem9.textContent = date9;
+        elem10.textContent = date10;
 
         var li = document.getElementById('Humidday1');
         li.textContent = "Humidity: " + Humidday1 + "%";
