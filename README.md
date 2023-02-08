@@ -11,10 +11,10 @@ This is a website that uses API requests for the current weather condition for t
 
 ## Sites
 - Github https://github.com/HoldyClaus/Challenge6
-- Deployed 
+- Deployed https://holdyclaus.github.io/Challenge6/
 
 ## Preview
-
+[preview](./assets/Capture.JPG)
 
 ## License
 MIT License
@@ -22,3 +22,4 @@ MIT License
 ## Credits
 - Stephen Totten
 - Ryan Damron
+- Gunnar Claus (Brother)
